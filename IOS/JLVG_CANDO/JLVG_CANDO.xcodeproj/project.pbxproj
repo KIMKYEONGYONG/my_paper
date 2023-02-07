@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0704CBE48298001574872CB0 /* Pods_JLVG_CANDO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3C724043AFFE57D611405C1 /* Pods_JLVG_CANDO.framework */; };
+		2311ABA829920CD9001D8AB7 /* 일본.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311ABA729920CD9001D8AB7 /* 일본.png */; };
+		233F45E42977A50B00FAF12F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F45E32977A50B00FAF12F /* AppDelegate.swift */; };
+		233F45E62977A50B00FAF12F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F45E52977A50B00FAF12F /* SceneDelegate.swift */; };
+		233F45E82977A50B00FAF12F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F45E72977A50B00FAF12F /* ViewController.swift */; };
+		233F45EB2977A50B00FAF12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F45E92977A50B00FAF12F /* Main.storyboard */; };
+		233F45ED2977A50B00FAF12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233F45EC2977A50B00FAF12F /* Assets.xcassets */; };
+		233F45F02977A50B00FAF12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F45EE2977A50B00FAF12F /* LaunchScreen.storyboard */; };
+		233F45FB2977A50B00FAF12F /* JLVG_CANDOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F45FA2977A50B00FAF12F /* JLVG_CANDOTests.swift */; };
+		233F46052977A50C00FAF12F /* JLVG_CANDOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F46042977A50C00FAF12F /* JLVG_CANDOUITests.swift */; };
+		233F46072977A50C00FAF12F /* JLVG_CANDOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233F46062977A50C00FAF12F /* JLVG_CANDOUITestsLaunchTests.swift */; };
+		235A45A92988ED7E00BB0A5E /* JLvCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A45A82988ED7E00BB0A5E /* JLvCellTableViewCell.swift */; };
+		235A45AB2988EDD600BB0A5E /* JLvHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A45AA2988EDD600BB0A5E /* JLvHomeModel.swift */; };
+		235A45AD2988EEC600BB0A5E /* JLvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A45AC2988EEC600BB0A5E /* JLvModel.swift */; };
+		235A45AF298A481A00BB0A5E /* JLvCandoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A45AE298A481A00BB0A5E /* JLvCandoViewController.swift */; };
+		235A45B1298B845600BB0A5E /* JLvCandoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A45B0298B845600BB0A5E /* JLvCandoModel.swift */; };
+		235A45B3298B850000BB0A5E /* JLvCandoHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A45B2298B850000BB0A5E /* JLvCandoHomeModel.swift */; };
+		237C8BAC299213C8006F3247 /* 일본2.png in Resources */ = {isa = PBXBuildFile; fileRef = 237C8BAB299213C8006F3247 /* 일본2.png */; };
+		2394A73329810C2200E0B1C8 /* TopicHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394A73229810C2200E0B1C8 /* TopicHomeModel.swift */; };
+		2394A73529810E9B00E0B1C8 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2394A73429810E9B00E0B1C8 /* TopicModel.swift */; };
+		23B9CC4A297BDD0300EFA70A /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9CC49297BDD0300EFA70A /* HomeModel.swift */; };
+		23B9CC4C297BDD1800EFA70A /* LevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B9CC4B297BDD1800EFA70A /* LevelModel.swift */; };
+		23DB1FD929825A8D007DB822 /* JlvResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DB1FD829825A8D007DB822 /* JlvResultViewController.swift */; };
+		B5AFF3BDDD40B4351819A8BD /* Pods_JLVG_CANDO_JLVG_CANDOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC1E38A387521F7F60CFDA3 /* Pods_JLVG_CANDO_JLVG_CANDOUITests.framework */; };
+		C767690D4D3868B30BF48FEE /* Pods_JLVG_CANDOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6C38D91B5184AB8B18D27C /* Pods_JLVG_CANDOTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233F45F72977A50B00FAF12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233F45D82977A50B00FAF12F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233F45DF2977A50B00FAF12F;
+			remoteInfo = JLVG_CANDO;
+		};
+		233F46012977A50C00FAF12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233F45D82977A50B00FAF12F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233F45DF2977A50B00FAF12F;
+			remoteInfo = JLVG_CANDO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143AA3687FA9C8318666D9E5 /* Pods-JLVG_CANDO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLVG_CANDO.release.xcconfig"; path = "Target Support Files/Pods-JLVG_CANDO/Pods-JLVG_CANDO.release.xcconfig"; sourceTree = "<group>"; };
+		1BC1E38A387521F7F60CFDA3 /* Pods_JLVG_CANDO_JLVG_CANDOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLVG_CANDO_JLVG_CANDOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2311ABA729920CD9001D8AB7 /* 일본.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "일본.png"; sourceTree = "<group>"; };
+		233F45E02977A50B00FAF12F /* JLVG_CANDO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLVG_CANDO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		233F45E32977A50B00FAF12F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		233F45E52977A50B00FAF12F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		233F45E72977A50B00FAF12F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		233F45EA2977A50B00FAF12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233F45EC2977A50B00FAF12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233F45EF2977A50B00FAF12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		233F45F12977A50B00FAF12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233F45F62977A50B00FAF12F /* JLVG_CANDOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLVG_CANDOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233F45FA2977A50B00FAF12F /* JLVG_CANDOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLVG_CANDOTests.swift; sourceTree = "<group>"; };
+		233F46002977A50C00FAF12F /* JLVG_CANDOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLVG_CANDOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233F46042977A50C00FAF12F /* JLVG_CANDOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLVG_CANDOUITests.swift; sourceTree = "<group>"; };
+		233F46062977A50C00FAF12F /* JLVG_CANDOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLVG_CANDOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		235A45A82988ED7E00BB0A5E /* JLvCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLvCellTableViewCell.swift; sourceTree = "<group>"; };
+		235A45AA2988EDD600BB0A5E /* JLvHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLvHomeModel.swift; sourceTree = "<group>"; };
+		235A45AC2988EEC600BB0A5E /* JLvModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLvModel.swift; sourceTree = "<group>"; };
+		235A45AE298A481A00BB0A5E /* JLvCandoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLvCandoViewController.swift; sourceTree = "<group>"; };
+		235A45B0298B845600BB0A5E /* JLvCandoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLvCandoModel.swift; sourceTree = "<group>"; };
+		235A45B2298B850000BB0A5E /* JLvCandoHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLvCandoHomeModel.swift; sourceTree = "<group>"; };
+		237C8BAB299213C8006F3247 /* 일본2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "일본2.png"; sourceTree = "<group>"; };
+		2394A73229810C2200E0B1C8 /* TopicHomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicHomeModel.swift; sourceTree = "<group>"; };
+		2394A73429810E9B00E0B1C8 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		23B9CC49297BDD0300EFA70A /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		23B9CC4B297BDD1800EFA70A /* LevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelModel.swift; sourceTree = "<group>"; };
+		23DB1FD829825A8D007DB822 /* JlvResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JlvResultViewController.swift; sourceTree = "<group>"; };
+		675864A34BAA95E0D1F7CE00 /* Pods-JLVG_CANDO-JLVG_CANDOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLVG_CANDO-JLVG_CANDOUITests.release.xcconfig"; path = "Target Support Files/Pods-JLVG_CANDO-JLVG_CANDOUITests/Pods-JLVG_CANDO-JLVG_CANDOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6D1516714513A9784B17A86D /* Pods-JLVG_CANDO-JLVG_CANDOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLVG_CANDO-JLVG_CANDOUITests.debug.xcconfig"; path = "Target Support Files/Pods-JLVG_CANDO-JLVG_CANDOUITests/Pods-JLVG_CANDO-JLVG_CANDOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		73ED7975CEB1A14ADDC31C2C /* Pods-JLVG_CANDOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLVG_CANDOTests.debug.xcconfig"; path = "Target Support Files/Pods-JLVG_CANDOTests/Pods-JLVG_CANDOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F6C38D91B5184AB8B18D27C /* Pods_JLVG_CANDOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLVG_CANDOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5592904EA234DB7C2590992 /* Pods-JLVG_CANDO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLVG_CANDO.debug.xcconfig"; path = "Target Support Files/Pods-JLVG_CANDO/Pods-JLVG_CANDO.debug.xcconfig"; sourceTree = "<group>"; };
+		C3C724043AFFE57D611405C1 /* Pods_JLVG_CANDO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLVG_CANDO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D074558392B7C30EB82525E9 /* Pods-JLVG_CANDOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLVG_CANDOTests.release.xcconfig"; path = "Target Support Files/Pods-JLVG_CANDOTests/Pods-JLVG_CANDOTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233F45DD2977A50B00FAF12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0704CBE48298001574872CB0 /* Pods_JLVG_CANDO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F45F32977A50B00FAF12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C767690D4D3868B30BF48FEE /* Pods_JLVG_CANDOTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F45FD2977A50C00FAF12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AFF3BDDD40B4351819A8BD /* Pods_JLVG_CANDO_JLVG_CANDOUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162B1781F2D7863D6675CD5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3C724043AFFE57D611405C1 /* Pods_JLVG_CANDO.framework */,
+				1BC1E38A387521F7F60CFDA3 /* Pods_JLVG_CANDO_JLVG_CANDOUITests.framework */,
+				7F6C38D91B5184AB8B18D27C /* Pods_JLVG_CANDOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		233F45D72977A50B00FAF12F = {
+			isa = PBXGroup;
+			children = (
+				233F45E22977A50B00FAF12F /* JLVG_CANDO */,
+				233F45F92977A50B00FAF12F /* JLVG_CANDOTests */,
+				233F46032977A50C00FAF12F /* JLVG_CANDOUITests */,
+				233F45E12977A50B00FAF12F /* Products */,
+				AAAE9CEF6DDFBE63FEDBD4CA /* Pods */,
+				162B1781F2D7863D6675CD5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		233F45E12977A50B00FAF12F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233F45E02977A50B00FAF12F /* JLVG_CANDO.app */,
+				233F45F62977A50B00FAF12F /* JLVG_CANDOTests.xctest */,
+				233F46002977A50C00FAF12F /* JLVG_CANDOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		233F45E22977A50B00FAF12F /* JLVG_CANDO */ = {
+			isa = PBXGroup;
+			children = (
+				237C8BAB299213C8006F3247 /* 일본2.png */,
+				2311ABA729920CD9001D8AB7 /* 일본.png */,
+				233F45E32977A50B00FAF12F /* AppDelegate.swift */,
+				233F45E52977A50B00FAF12F /* SceneDelegate.swift */,
+				233F45E72977A50B00FAF12F /* ViewController.swift */,
+				23DB1FD829825A8D007DB822 /* JlvResultViewController.swift */,
+				235A45B2298B850000BB0A5E /* JLvCandoHomeModel.swift */,
+				235A45A82988ED7E00BB0A5E /* JLvCellTableViewCell.swift */,
+				233F45E92977A50B00FAF12F /* Main.storyboard */,
+				235A45AE298A481A00BB0A5E /* JLvCandoViewController.swift */,
+				235A45B0298B845600BB0A5E /* JLvCandoModel.swift */,
+				233F45EC2977A50B00FAF12F /* Assets.xcassets */,
+				233F45EE2977A50B00FAF12F /* LaunchScreen.storyboard */,
+				233F45F12977A50B00FAF12F /* Info.plist */,
+				23B9CC49297BDD0300EFA70A /* HomeModel.swift */,
+				2394A73229810C2200E0B1C8 /* TopicHomeModel.swift */,
+				23B9CC4B297BDD1800EFA70A /* LevelModel.swift */,
+				2394A73429810E9B00E0B1C8 /* TopicModel.swift */,
+				235A45AA2988EDD600BB0A5E /* JLvHomeModel.swift */,
+				235A45AC2988EEC600BB0A5E /* JLvModel.swift */,
+			);
+			path = JLVG_CANDO;
+			sourceTree = "<group>";
+		};
+		233F45F92977A50B00FAF12F /* JLVG_CANDOTests */ = {
+			isa = PBXGroup;
+			children = (
+				233F45FA2977A50B00FAF12F /* JLVG_CANDOTests.swift */,
+			);
+			path = JLVG_CANDOTests;
+			sourceTree = "<group>";
+		};
+		233F46032977A50C00FAF12F /* JLVG_CANDOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				233F46042977A50C00FAF12F /* JLVG_CANDOUITests.swift */,
+				233F46062977A50C00FAF12F /* JLVG_CANDOUITestsLaunchTests.swift */,
+			);
+			path = JLVG_CANDOUITests;
+			sourceTree = "<group>";
+		};
+		AAAE9CEF6DDFBE63FEDBD4CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5592904EA234DB7C2590992 /* Pods-JLVG_CANDO.debug.xcconfig */,
+				143AA3687FA9C8318666D9E5 /* Pods-JLVG_CANDO.release.xcconfig */,
+				6D1516714513A9784B17A86D /* Pods-JLVG_CANDO-JLVG_CANDOUITests.debug.xcconfig */,
+				675864A34BAA95E0D1F7CE00 /* Pods-JLVG_CANDO-JLVG_CANDOUITests.release.xcconfig */,
+				73ED7975CEB1A14ADDC31C2C /* Pods-JLVG_CANDOTests.debug.xcconfig */,
+				D074558392B7C30EB82525E9 /* Pods-JLVG_CANDOTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		233F45DF2977A50B00FAF12F /* JLVG_CANDO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233F460A2977A50C00FAF12F /* Build configuration list for PBXNativeTarget "JLVG_CANDO" */;
+			buildPhases = (
+				579ED54891E5FB0979DFA0E9 /* [CP] Check Pods Manifest.lock */,
+				233F45DC2977A50B00FAF12F /* Sources */,
+				233F45DD2977A50B00FAF12F /* Frameworks */,
+				233F45DE2977A50B00FAF12F /* Resources */,
+				DE829E692E8063C58027BF69 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLVG_CANDO;
+			productName = JLVG_CANDO;
+			productReference = 233F45E02977A50B00FAF12F /* JLVG_CANDO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		233F45F52977A50B00FAF12F /* JLVG_CANDOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233F460D2977A50C00FAF12F /* Build configuration list for PBXNativeTarget "JLVG_CANDOTests" */;
+			buildPhases = (
+				E2402AEA5A2E370345382D0C /* [CP] Check Pods Manifest.lock */,
+				233F45F22977A50B00FAF12F /* Sources */,
+				233F45F32977A50B00FAF12F /* Frameworks */,
+				233F45F42977A50B00FAF12F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233F45F82977A50B00FAF12F /* PBXTargetDependency */,
+			);
+			name = JLVG_CANDOTests;
+			productName = JLVG_CANDOTests;
+			productReference = 233F45F62977A50B00FAF12F /* JLVG_CANDOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		233F45FF2977A50C00FAF12F /* JLVG_CANDOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233F46102977A50C00FAF12F /* Build configuration list for PBXNativeTarget "JLVG_CANDOUITests" */;
+			buildPhases = (
+				3D7AD2BCFB9258322C2367BF /* [CP] Check Pods Manifest.lock */,
+				233F45FC2977A50C00FAF12F /* Sources */,
+				233F45FD2977A50C00FAF12F /* Frameworks */,
+				233F45FE2977A50C00FAF12F /* Resources */,
+				6283CD596CB3154728C5A6A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233F46022977A50C00FAF12F /* PBXTargetDependency */,
+			);
+			name = JLVG_CANDOUITests;
+			productName = JLVG_CANDOUITests;
+			productReference = 233F46002977A50C00FAF12F /* JLVG_CANDOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		233F45D82977A50B00FAF12F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					233F45DF2977A50B00FAF12F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					233F45F52977A50B00FAF12F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 233F45DF2977A50B00FAF12F;
+					};
+					233F45FF2977A50C00FAF12F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 233F45DF2977A50B00FAF12F;
+					};
+				};
+			};
+			buildConfigurationList = 233F45DB2977A50B00FAF12F /* Build configuration list for PBXProject "JLVG_CANDO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 233F45D72977A50B00FAF12F;
+			productRefGroup = 233F45E12977A50B00FAF12F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				233F45DF2977A50B00FAF12F /* JLVG_CANDO */,
+				233F45F52977A50B00FAF12F /* JLVG_CANDOTests */,
+				233F45FF2977A50C00FAF12F /* JLVG_CANDOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		233F45DE2977A50B00FAF12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F45F02977A50B00FAF12F /* LaunchScreen.storyboard in Resources */,
+				2311ABA829920CD9001D8AB7 /* 일본.png in Resources */,
+				233F45ED2977A50B00FAF12F /* Assets.xcassets in Resources */,
+				237C8BAC299213C8006F3247 /* 일본2.png in Resources */,
+				233F45EB2977A50B00FAF12F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F45F42977A50B00FAF12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F45FE2977A50C00FAF12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D7AD2BCFB9258322C2367BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JLVG_CANDO-JLVG_CANDOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		579ED54891E5FB0979DFA0E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JLVG_CANDO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6283CD596CB3154728C5A6A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JLVG_CANDO-JLVG_CANDOUITests/Pods-JLVG_CANDO-JLVG_CANDOUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JLVG_CANDO-JLVG_CANDOUITests/Pods-JLVG_CANDO-JLVG_CANDOUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JLVG_CANDO-JLVG_CANDOUITests/Pods-JLVG_CANDO-JLVG_CANDOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE829E692E8063C58027BF69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JLVG_CANDO/Pods-JLVG_CANDO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JLVG_CANDO/Pods-JLVG_CANDO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JLVG_CANDO/Pods-JLVG_CANDO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2402AEA5A2E370345382D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JLVG_CANDOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		233F45DC2977A50B00FAF12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2394A73529810E9B00E0B1C8 /* TopicModel.swift in Sources */,
+				23B9CC4C297BDD1800EFA70A /* LevelModel.swift in Sources */,
+				23DB1FD929825A8D007DB822 /* JlvResultViewController.swift in Sources */,
+				235A45B1298B845600BB0A5E /* JLvCandoModel.swift in Sources */,
+				23B9CC4A297BDD0300EFA70A /* HomeModel.swift in Sources */,
+				233F45E82977A50B00FAF12F /* ViewController.swift in Sources */,
+				233F45E42977A50B00FAF12F /* AppDelegate.swift in Sources */,
+				2394A73329810C2200E0B1C8 /* TopicHomeModel.swift in Sources */,
+				235A45AF298A481A00BB0A5E /* JLvCandoViewController.swift in Sources */,
+				235A45B3298B850000BB0A5E /* JLvCandoHomeModel.swift in Sources */,
+				235A45AB2988EDD600BB0A5E /* JLvHomeModel.swift in Sources */,
+				233F45E62977A50B00FAF12F /* SceneDelegate.swift in Sources */,
+				235A45A92988ED7E00BB0A5E /* JLvCellTableViewCell.swift in Sources */,
+				235A45AD2988EEC600BB0A5E /* JLvModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F45F22977A50B00FAF12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F45FB2977A50B00FAF12F /* JLVG_CANDOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F45FC2977A50C00FAF12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F46052977A50C00FAF12F /* JLVG_CANDOUITests.swift in Sources */,
+				233F46072977A50C00FAF12F /* JLVG_CANDOUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233F45F82977A50B00FAF12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233F45DF2977A50B00FAF12F /* JLVG_CANDO */;
+			targetProxy = 233F45F72977A50B00FAF12F /* PBXContainerItemProxy */;
+		};
+		233F46022977A50C00FAF12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233F45DF2977A50B00FAF12F /* JLVG_CANDO */;
+			targetProxy = 233F46012977A50C00FAF12F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		233F45E92977A50B00FAF12F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233F45EA2977A50B00FAF12F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		233F45EE2977A50B00FAF12F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233F45EF2977A50B00FAF12F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		233F46082977A50C00FAF12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		233F46092977A50C00FAF12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233F460B2977A50C00FAF12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5592904EA234DB7C2590992 /* Pods-JLVG_CANDO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JLVG_CANDO/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kim.JLVG-CANDO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		233F460C2977A50C00FAF12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143AA3687FA9C8318666D9E5 /* Pods-JLVG_CANDO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JLVG_CANDO/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kim.JLVG-CANDO";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		233F460E2977A50C00FAF12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73ED7975CEB1A14ADDC31C2C /* Pods-JLVG_CANDOTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kim.JLVG-CANDOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLVG_CANDO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JLVG_CANDO";
+			};
+			name = Debug;
+		};
+		233F460F2977A50C00FAF12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D074558392B7C30EB82525E9 /* Pods-JLVG_CANDOTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kim.JLVG-CANDOTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLVG_CANDO.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JLVG_CANDO";
+			};
+			name = Release;
+		};
+		233F46112977A50C00FAF12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1516714513A9784B17A86D /* Pods-JLVG_CANDO-JLVG_CANDOUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kim.JLVG-CANDOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JLVG_CANDO;
+			};
+			name = Debug;
+		};
+		233F46122977A50C00FAF12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675864A34BAA95E0D1F7CE00 /* Pods-JLVG_CANDO-JLVG_CANDOUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kim.JLVG-CANDOUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JLVG_CANDO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		233F45DB2977A50B00FAF12F /* Build configuration list for PBXProject "JLVG_CANDO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F46082977A50C00FAF12F /* Debug */,
+				233F46092977A50C00FAF12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233F460A2977A50C00FAF12F /* Build configuration list for PBXNativeTarget "JLVG_CANDO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F460B2977A50C00FAF12F /* Debug */,
+				233F460C2977A50C00FAF12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233F460D2977A50C00FAF12F /* Build configuration list for PBXNativeTarget "JLVG_CANDOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F460E2977A50C00FAF12F /* Debug */,
+				233F460F2977A50C00FAF12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233F46102977A50C00FAF12F /* Build configuration list for PBXNativeTarget "JLVG_CANDOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F46112977A50C00FAF12F /* Debug */,
+				233F46122977A50C00FAF12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 233F45D82977A50B00FAF12F /* Project object */;
+}

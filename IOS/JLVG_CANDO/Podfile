@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'JLVG_CANDO' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for JLVG_CANDO
+  pod 'MySqlSwiftNavtive'
+
+  target 'JLVG_CANDOTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'JLVG_CANDOUITests' do
+    # Pods for testing
+  end
+
+end

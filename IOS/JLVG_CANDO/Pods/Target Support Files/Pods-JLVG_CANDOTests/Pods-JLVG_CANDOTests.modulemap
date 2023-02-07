@@ -1,0 +1,6 @@
+framework module Pods_JLVG_CANDOTests {
+  umbrella header "Pods-JLVG_CANDOTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
